@@ -43,6 +43,8 @@ def : Proc<"RV32IMAFD", [FeatureRV32,FeatureM,FeatureA,FeatureF,FeatureD]>;
 def : Proc<"RV64I", [FeatureRV64]>;
 def : Proc<"RV64IMAFD", [FeatureRV64,FeatureM,FeatureA,FeatureF,FeatureD]>;
 def : Proc<"Rocket", [FeatureRV64,FeatureM,FeatureA,FeatureF,FeatureD]>;
+def : Proc<"RocketSmall", [FeatureRV64,FeatureM,FeatureA,FeatureD]>;
+
 
 //===----------------------------------------------------------------------===//
 // Register file description
